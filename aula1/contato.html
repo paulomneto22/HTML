@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz para programadores</title>
+    <link rel="stylesheet" href="./styles/styleContatos.css">
+    
+</head>
+<body>
+     <header class="cabecalho">
+    <h1>Quiz Interativo para Programadores</h1>
+    <p>Teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
+        <div class="cabecalho-menu">
+         <a href="index.html">
+            <img src="./img/quiz programa.jpg" alt="Logo Quiz" class="logoQuiz">
+        </a>
+            <nav class="menu">
+                <a href="pontuacao.html">Pontuação</a>
+                <a href="respostas.html">Respostas</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+        <main class="container">
+    <h2 class="subtitulo">Nós dê um feedaback</h2>
+    <form>
+        <fieldset>
+            <legend>Informações de Contato</legend>
+ 
+            <label for="nome">Nome:</label>
+            <input type="text" nome="nome" id="nome" placeholder="Digite o seu Nome" required>
+ 
+            <label for="email">Email:</label>
+            <input type="text" nome="email" id="email" placeholder="exemplo@gmail.com.br" required><br>
+ 
+            <label for="comentario">Comentário:</label>
+            <textarea name="comentario" id="comentario" placeholder="Digite o seu Comentário" cols="186" rows="7"></textarea><br>
+ 
+            <button type="submit">Concluído</button>
+        </fieldset>
+    </form>
+    <button onclick="alert('Quiz Enviado!')">Enviar Quiz</button>
+    </main>
+        
+        
+        <footer class="rodape">
+        <p class="rodape2"><br>
+            &copy Quiz de programação. Todos os direitos reservados
+        </p>
+        <p class="rodape2">
+            Para conhecer mais sobre mim <a href="https://paulomneto22.github.io/Portifolio/" class="footer-link">clique aqui.</a>
+        </p>
+    </footer>
+</body>
+</html>

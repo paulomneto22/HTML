@@ -1,0 +1,22 @@
+@import url('style.css');
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+thead{
+    font-size: 22px;
+    background-color: rgba(223, 223, 0, 0.553);
+    padding: 200px;
+}
+ 
+td{
+    text-align: center;
+    padding: 15px;
+}
+ 
+tfoot{
+    color: white;
+    background-color: black;
+}
