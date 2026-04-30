@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #ffffff;
+    --cor-destaque: #c0c0c0;
+    --fonte-principal: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding: 20px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+nav {
+    background: var(--cor-destaque);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+section, article, aside {
+    margin-bottom: 20px;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    background: var(--cor-destaque);
+    padding: 15px;
+}
+
+footer {
+    background: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.torcida1{
+    font-size: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.titulo2{
+    font-size: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.historia1{
+    font-size: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.curiosidades1{
+    font-size: 30px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.video1{
+    font-size: 30px;
+    box-shadow: 2px 2px 2px black;
+}
